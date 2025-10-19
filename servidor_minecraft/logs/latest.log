@@ -1,0 +1,71 @@
+[05:32:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[05:32:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[05:32:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:32:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[05:32:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:32:17] [ServerMain/INFO]: Loaded 1290 recipes
+[05:32:17] [ServerMain/INFO]: Loaded 1399 advancements
+[05:32:18] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:32:18] [Server thread/INFO]: Loading properties
+[05:32:18] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[05:32:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:32:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:32:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:32:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[05:32:19] [Server thread/INFO]: Default game type: SURVIVAL
+[05:32:19] [Server thread/INFO]: Generating keypair
+[05:32:19] [Server thread/INFO]: Starting Minecraft server on 192.168.196.213:25565
+[05:32:19] [Server thread/INFO]: Using epoll channel type
+[05:32:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:32:19] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[05:32:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:32:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:32:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:32:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:32:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:32:19] [Server thread/INFO]: Preparing level "world"
+[05:32:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:32:21] [Server thread/INFO]: Time elapsed: 1327 ms
+[05:32:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:32:21] [Server thread/INFO]: Time elapsed: 216 ms
+[05:32:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:32:22] [Server thread/INFO]: Time elapsed: 89 ms
+[05:32:22] [Server thread/INFO]: [spark] Starting background profiler...
+[05:32:22] [Server thread/INFO]: Done preparing level "world" (2.453s)
+[05:32:22] [Server thread/INFO]: Running delayed init tasks
+[05:32:22] [Server thread/INFO]: Done (12.401s)! For help, type "help"
+[05:32:22] [Server thread/INFO]: Timings Reset
+[05:32:38] [User Authenticator #0/INFO]: UUID of player AL5PT is 3678aaa4-193c-3005-aadb-5e617b75fe27
+[05:32:40] [Server thread/INFO]: AL5PT joined the game
+[05:32:40] [Server thread/INFO]: AL5PT[/192.168.196.128:57252] logged in with entity id 80 at ([world]-30.85931168535575, 111.0, -38.16819958335374)
+[05:32:47] [Server thread/INFO]: AL5PT issued server command: /register
+[05:32:51] [Server thread/INFO]: AL5PT issued server command: /plugins
+[05:33:00] [Server thread/INFO]: Server Plugins (0):
+[05:33:34] [Server thread/INFO]: AL5PT issued server command: /reload
+[05:33:45] [Server thread/INFO]: Made AL5PT a server operator
+[05:34:01] [Server thread/INFO]: AL5PT issued server command: /stop
+[05:34:01] [Server thread/INFO]: [AL5PT: Stopping the server]
+[05:34:01] [Server thread/INFO]: Stopping server
+[05:34:01] [Server thread/INFO]: Saving players
+[05:34:01] [Server thread/INFO]: AL5PT lost connection: Server closed
+[05:34:01] [Server thread/INFO]: AL5PT left the game
+[05:34:01] [Server thread/INFO]: Saving worlds
+[05:34:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:34:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:34:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:34:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1724 block chunks, 899 entity chunks, 0 poi chunks in world 'world' in 2.35s
+[05:34:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[05:34:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:34:03] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[05:34:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:34:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:34:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:34:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
